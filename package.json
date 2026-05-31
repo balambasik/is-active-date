@@ -1,6 +1,6 @@
 {
   "name": "is-active-date",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -19,6 +19,14 @@
     "range",
     "time"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balambasik/is-active-date.git"
+  },
+  "bugs": {
+    "url": "https://github.com/balambasik/is-active-date/issues"
+  },
+  "homepage": "https://github.com/balambasik/is-active-date#readme",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.0.0",
