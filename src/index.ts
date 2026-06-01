@@ -20,7 +20,7 @@ const toDate = (value: DateLike | null | undefined): Date | null => {
 
 const normalize = (date: Date, precision: DatePrecision): Date => {
     if (precision === 'millisecond') {
-        return date;
+        return new Date(date);
     }
 
     const result = new Date(date);
